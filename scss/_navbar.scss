@@ -5,7 +5,7 @@
     @include transition-all;
     @include heading-font;
     .navbar-brand {
-        color: $theme-primary;
+        color: rgb(58, 57, 57);
         @include heading-font;
         &:hover,
         &:focus {
@@ -21,9 +21,10 @@
         > li {
             > a {
                 font-size: 11px;
+                color: $gray-base !important;
                 @include alt-font;
                 &.active {
-                    color: $theme-primary !important;
+                    color: $gray-base !important;
                     background-color: transparent;
                     &:hover {
                         background-color: transparent;
@@ -46,7 +47,7 @@
             color: fade(white, 70%);
             &:hover,
             &:focus {
-                color: white;
+                color: black;
             }
         }
         .navbar-nav > li > a,
