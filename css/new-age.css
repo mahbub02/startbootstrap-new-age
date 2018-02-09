@@ -329,7 +329,7 @@ section.cta .cta-content h2 {
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
     font-size: 20px;
-    padding: 200px 0;
+    padding: 350px 0px 50px 0px;
   }
 }
 
@@ -344,7 +344,7 @@ section.cta .overlay {
 
 section.cta2 {
   background-image: url("../img/supported-device.png");
-  background-size: inherit;
+  background-size: 60%;
   background-repeat: no-repeat;
 }
 
